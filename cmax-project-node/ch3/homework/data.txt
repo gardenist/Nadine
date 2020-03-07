@@ -1,0 +1,6 @@
+title:Node.js 교과서
+author:조현영
+publisher:도서출판 길벗
+price:32000
+description:ES2018 문법으로 배우는 Node.js 10
+isbn:979-11-6050-522-1 93000

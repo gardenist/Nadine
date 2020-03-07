@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>hello Event</button>
+    <script>
+        let button = document.querySelector('button');
+        button.onclick = function(e){ //이벤트 핸들러  / 리스너
+            console.log('클릭함!')
+        }
+        button.addEventListener('myEvent')
+    </script>
+</body>
+</html>
